@@ -1,0 +1,2 @@
+This project is to build a parser and syntax checker called PL2016_check based on the syntax graph.
+In general, Lex (flex) was used to separate the source files into tokens that can be parsed, and Yacc (Bison) was used to accessing the hierarchical structure of whole program by analysing the tokens parsed by lex. Since the project is a simple parser and syntax checker so only the basic functions of Yacc and Lex were used
